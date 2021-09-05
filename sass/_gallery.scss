@@ -1,0 +1,10 @@
+.gallery {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+
+  &__img img{
+    width: 100%
+  }
+}
