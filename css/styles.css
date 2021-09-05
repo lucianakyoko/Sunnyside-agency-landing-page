@@ -180,7 +180,7 @@ a {
   font-family: "Fraunces", serif;
   width: 100%;
   text-align: center;
-  padding: 3.6rem 0;
+  padding: 3.6rem 0 2.4rem 0;
 }
 
 .service__paragraph {
@@ -188,5 +188,63 @@ a {
   text-align: center;
   position: absolute;
   bottom: 6.2rem;
+  font-size: 1.6rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+.testimonial__subtitle {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
   font-size: 1.8rem;
+  letter-spacing: .4rem;
+  color: #a7abae;
+  margin-top: 7rem;
+}
+
+.testimonial .client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.testimonial .client__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.testimonial .client__img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50px;
+  margin: 7rem 0 3.6rem;
+}
+
+.testimonial .client__paragraph {
+  font-size: 1.8rem;
+  padding: 0 2.8rem 4rem 2.8rem;
+  text-align: center;
+  color: #818498;
+}
+
+.testimonial .client__name {
+  font-family: "Fraunces", serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #23303e;
+  padding-bottom: 1.6rem;
+}
+
+.testimonial .client__office {
+  font-size: 1.4rem;
+  color: #a7abae;
 }

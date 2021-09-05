@@ -1,0 +1,58 @@
+.testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  margin-bottom: 8rem;
+
+  &__subtitle {
+    font-family: $font-fraunces;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    letter-spacing: .4rem;
+    color: $color-grayish-blue;
+    margin-top: 7rem;
+  }
+
+  .client{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    &__img {
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50px;
+      margin: 7rem 0 3.6rem;
+    }
+
+    &__paragraph {
+      font-size: 1.8rem;
+      padding: 0 2.8rem 4rem 2.8rem;
+      text-align: center;
+      color: $color-dark-grayish-blue;
+    }
+
+    &__name {
+      font-family: $font-fraunces;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: $color-very-dark-desaturated-blue;
+      padding-bottom: 1.6rem;
+    }
+
+    &__office {
+      font-size: 1.4rem;
+      color: $color-grayish-blue;
+    }
+  }
+}
