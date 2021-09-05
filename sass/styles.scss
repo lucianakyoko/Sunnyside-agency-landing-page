@@ -1,0 +1,40 @@
+//color palette:
+//Primary colors:
+$color-soft-red: hsl(7, 99%, 70%);
+$color-yellow:hsl(51, 100%, 49%);
+$color-dark-desaturated-cyan:hsl(167, 40%, 24%);
+$color-dark-blue: hsl(198, 62%, 26%);
+$color-dark-moderate-cyan: hsl(168, 34%, 41%);
+
+//Neutral colors:
+$color-very-dark-desaturated-blue: hsl(212, 27%, 19%);
+$color-very-dark-grayish-blue: hsl(213, 9%, 39%);
+$color-dark-grayish-blue: hsl(232, 10%, 55%);
+$color-grayish-blue: hsl(210, 4%, 67%);
+$color-white: hsl(0, 0%, 100%);
+
+//Font families:
+$font-barlow: 'Barlow', sans-serif;
+$font-fraunces: 'Fraunces', serif;
+
+//Global styles:
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $font-barlow;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import 'header'
