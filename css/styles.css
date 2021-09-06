@@ -33,6 +33,10 @@ a {
   position: relative;
 }
 
+.header__hamburger-menu {
+  cursor: pointer;
+}
+
 .header .menu {
   display: none;
 }
@@ -165,6 +169,7 @@ a {
   font-family: "Fraunces", serif;
   color: #23303e;
   text-transform: uppercase;
+  cursor: pointer;
   position: relative;
 }
 
@@ -178,6 +183,7 @@ a {
   z-index: -1;
   border-radius: .5rem;
   background: rgba(250, 212, 0, 0.4);
+  transition: all 1s;
 }
 
 .article .learn-more1:hover::before {
@@ -194,6 +200,7 @@ a {
   z-index: -1;
   border-radius: .5rem;
   background: rgba(254, 120, 103, 0.4);
+  transition: all 1s;
 }
 
 .article .learn-more2:hover::before {

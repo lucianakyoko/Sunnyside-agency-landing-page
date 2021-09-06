@@ -28,7 +28,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-
+![](./screenshot.jpg)
 
 ### Links
 

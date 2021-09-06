@@ -50,23 +50,23 @@
     font-family: $font-fraunces;
     color: $color-very-dark-desaturated-blue;
     text-transform: uppercase;
-
+    cursor: pointer;
     position: relative;
   }
-
+  
   .learn-more1::before {
     @include before;
     background: hsla(51, 100%, 49%, 0.4);
-
+    transition: all 1s;
   }
   .learn-more1:hover::before {
     background: $color-yellow;
   }
-
+  
   .learn-more2::before {
     @include before;
     background: hsla(7, 99%, 70%, 0.4);
-
+    transition: all 1s;
   }
   .learn-more2:hover::before {
     background: $color-soft-red;
