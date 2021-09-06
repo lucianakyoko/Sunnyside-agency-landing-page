@@ -49,6 +49,7 @@ a {
   position: absolute;
   left: 5%;
   top: 10.5rem;
+  z-index: 1;
 }
 
 .header .menu__link {
@@ -104,6 +105,7 @@ a {
 
 .header__icon {
   margin-bottom: 13rem;
+  animation: bounce 1.5s linear infinite;
 }
 
 .article {
@@ -357,4 +359,22 @@ a {
 
 .footer__attribution a {
   color: #25564b;
+}
+
+@keyframes bounce {
+  20%, 50%, 80%, to {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  70% {
+    transform: translateY(-15px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

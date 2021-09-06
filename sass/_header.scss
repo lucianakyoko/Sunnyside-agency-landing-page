@@ -28,6 +28,8 @@
       position: absolute;
       left: 5%;
       top: 10.5rem;
+
+      z-index: 1;
     }
 
     &__link {
@@ -84,7 +86,9 @@
 
   &__icon {
     margin-bottom: 13rem;
+    animation: bounce 1.5s linear infinite;
   }
-  }
+
+}
 
 
