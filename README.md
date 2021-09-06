@@ -28,16 +28,26 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
-![](./screenshot.jpg)
+![Desktop](./github/desktop.gif);
+![Mobile](./github/mobile.gif);
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub link](https://github.com/lucianakyoko/Sunnyside-agency-landing-page)
+- Live Site URL: [Site URL](https://your-live-site-url.com)
 
 ## My process
 
 ### Built with
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript
+- Sass
+- BEM methodology
+- @keyframe for bounce animation
+- @media queries for responsive
 
 ### What I learned
 
