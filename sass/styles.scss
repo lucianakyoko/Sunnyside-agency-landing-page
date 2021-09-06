@@ -3,6 +3,7 @@
 $color-soft-red: hsl(7, 99%, 70%);
 $color-yellow:hsl(51, 100%, 49%);
 $color-dark-desaturated-cyan:hsl(167, 40%, 24%);
+$color-dark-desaturated:hsl(166, 43%, 67%);
 $color-dark-blue: hsl(198, 62%, 26%);
 $color-dark-moderate-cyan: hsl(168, 34%, 41%);
 
@@ -55,4 +56,4 @@ a {
   text-decoration: none;
 }
 
-@import 'header', 'articles','services', 'testimonials', 'gallery'
+@import 'header', 'articles','services', 'testimonials', 'gallery', 'footer'

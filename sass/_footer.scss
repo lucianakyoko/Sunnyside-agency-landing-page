@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: $color-dark-desaturated;
+  &__logo {
+    color: $color-dark-desaturated-cyan;
+    font-size: 3rem;
+    margin-top: 6.4rem;
+    margin-bottom: 4.8rem;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    font-size: 1.8rem;
+    padding: 0 4.8rem;
+
+    &__link a {
+      color: $color-dark-moderate-cyan;
+    }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8rem;
+    margin: 8rem 0;
+  }
+
+  &__attribution {
+    font-size: 1.4rem;
+    color: $color-dark-moderate-cyan;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    a {
+      color: $color-dark-desaturated-cyan;
+    }
+  }
+}
