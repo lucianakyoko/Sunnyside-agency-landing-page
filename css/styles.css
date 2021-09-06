@@ -378,3 +378,117 @@ a {
     transform: translateY(0px);
   }
 }
+
+@media screen and (min-width: 767px) {
+  .header {
+    background-image: url("../images/desktop/image-header.jpg");
+    background-position: center;
+  }
+  .header__navbar {
+    padding: 0 2rem;
+  }
+  .header__hamburger-menu {
+    display: none;
+  }
+  .header .menu {
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+  }
+  .header .menu__link a {
+    color: white;
+    transition: all 1s ease;
+  }
+  .header .menu__link:last-child {
+    background: white;
+    transition: all 1s ease;
+  }
+  .header .menu__link:last-child:hover {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+  .header .menu__link:last-child:hover a {
+    color: white;
+  }
+  .article {
+    width: 100%;
+  }
+  .article__item:first-child {
+    flex-direction: row-reverse;
+  }
+  .article__item:last-child {
+    flex-direction: row;
+  }
+  .article__item {
+    width: 100%;
+  }
+  .article__img {
+    width: 100%;
+    height: 50rem;
+  }
+  .article__img.img1 {
+    background: url("../images/desktop/image-transform.jpg");
+  }
+  .article__img.img2 {
+    background: url("../images/desktop/image-stand-out.jpg");
+  }
+  .article__txt-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .article__title {
+    margin: auto;
+    width: 80%;
+    padding: 0 2.4rem;
+    text-align: left;
+  }
+  .article__paragraph {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+  }
+  .article__learn-more {
+    margin-left: 9rem;
+  }
+  .service {
+    flex-direction: row;
+  }
+  .service .item1 {
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+  .service .item2 {
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
+  .service__title {
+    width: 58%;
+    margin: 0 20%;
+  }
+  .service__paragraph {
+    width: 58%;
+    margin: 0 20%;
+    line-height: 2.4rem;
+  }
+  .testimonial .client {
+    width: 80%;
+    flex-direction: row;
+  }
+  .gallery {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+  }
+  .footer .menu__link a {
+    transition: all 1s;
+  }
+  .footer .menu__link a:hover {
+    color: white;
+  }
+  .footer .social__icon svg path {
+    transition: all 1s;
+  }
+  .footer .social__icon svg:hover path {
+    fill: white;
+  }
+}
