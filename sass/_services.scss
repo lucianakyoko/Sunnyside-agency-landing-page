@@ -6,10 +6,8 @@
     width: 100%;
     height: 60rem;
 
+    @include backgroundImg;
     background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-
     position: relative;
     
   }

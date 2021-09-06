@@ -19,6 +19,11 @@ $font-barlow: 'Barlow', sans-serif;
 $font-fraunces: 'Fraunces', serif;
 
 //mixin:
+@mixin backgroundImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @mixin flexCenter {
   display: flex;
   align-items: center;
