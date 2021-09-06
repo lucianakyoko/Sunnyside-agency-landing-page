@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub link](https://github.com/lucianakyoko/Sunnyside-agency-landing-page)
-- Live Site URL: [Site URL](https://your-live-site-url.com)
+- Live Site URL: [Site URL](https://sunnyside-agency-lk.netlify.app/)
 
 ## My process
 
@@ -49,13 +49,9 @@ Users should be able to:
 - @keyframe for bounce animation
 - @media queries for responsive
 
-### What I learned
-
 ## Author
 
 - Website - [Luciana Kyoko](https://lucianakyoko.netlify.app)
 - Frontend Mentor - [@lucianakyoko](https://www.frontendmentor.io/profile/lucianakyoko)
 - LinkedIn - [Luciana Kyoko](https://www.linkedin.com/in/lucianakyoko)
 - Instagram - [@lucianakyoko](https://www.instagram.com/luciana_kyoko)
-
-## Acknowledgments
