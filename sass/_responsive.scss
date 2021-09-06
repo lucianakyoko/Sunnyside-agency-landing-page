@@ -1,10 +1,12 @@
 @media screen and (min-width: 767px) {
   .header {
+    height: 80rem;
     background-image: url('../images/desktop/image-header.jpg');
     background-position: center;
 
     &__navbar {
-      padding: 0 2rem;
+      padding: 4.8rem 2rem 0 2rem;
+
     }
 
     &__hamburger-menu {
